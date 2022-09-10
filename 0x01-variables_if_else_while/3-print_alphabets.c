@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - prints alphabet in lowercase and then in uppercase
- * return: 0 if true (success)
+ * Return: 0 if true (success)
  */
 
 int main(void)
