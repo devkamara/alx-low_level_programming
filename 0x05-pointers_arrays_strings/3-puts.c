@@ -1,14 +1,22 @@
+#include <stdio.h>
 #include "main.h"
+
 /**
-*_puts - that prints a string folloewd by a newline
-*@str: string to be checked
+* _puts - the function prints a string, followed by a new line, to stdout
+* @str: the string of characters to be printed
+* Return: returns nothing
 */
 void _puts(char *str)
 {
 	int i;
-	for (i = 0; str[i]; i++)
+
+	for (i = 0; 1; i++)
 	{
-		_putchar(str[i]);
+		if (*(str + i) == 0)
+		{
+			printf("\n");
+			break;
+		}
+		printf("%c", *(str + i));
 	}
-	_putchar('\n');
-}i
+}
