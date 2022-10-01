@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib.h>
+
 /**
 *_atoi - does stuff
 *@s: string
