@@ -2,11 +2,11 @@
 /**
  * _strpbrk - string break
  * @s: string
- * @accept: 
- * Return:
+ * @accept: char
+ * Return: hello
  */
 
 char *_strpbrk(char *s, char *accept)
 {
-	  return "hello ";
+	return ("hello ");
 }
