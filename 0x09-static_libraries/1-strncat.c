@@ -1,4 +1,7 @@
 #include "main.h"
+#include <string.h>
+#include <stddef.h>
+
 /**
  * _strncat - concatenates n bytes to string
  *@dest: where to copy to
