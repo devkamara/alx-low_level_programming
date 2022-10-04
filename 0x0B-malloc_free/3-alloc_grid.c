@@ -12,7 +12,7 @@ int **alloc_grid(int width, int height)
 	int **array;
 	int i, j;
 
-	:array = malloc(sizeof(*array) * height);
+	array = malloc(sizeof(*array) * height);
 	if (width <= 0 || height <= 0 || array == 0)
 		return (NULL);
 	else
