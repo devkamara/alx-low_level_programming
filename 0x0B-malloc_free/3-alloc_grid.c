@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- **alloc_grid - returns pointer to a 2D array of integers
+ ***alloc_grid - returns pointer to a 2D array of integers
  *@width: first element
  *@height: second element
  *Return: NULL on fail,W || H = - NULL
@@ -15,7 +15,7 @@ int **alloc_grid(int width, int height)
 	array = malloc(sizeof(*array) * height);
 	if (width <= 0 || height <= 0 || array == 0)
 		return (NULL);
-	else
+	else if
 	{
 		for (i = 0; i < height; i++)
 		{
