@@ -1,13 +1,15 @@
 #include "main.h"
-#include <string.h>
-
 /**
-* _strlen - prints the size of the string
-* @s:pointer to array of string chars
-* Return: length of the array
-*/
+ * _strlen - returns the length of a string
+ * @s: string to be checked
+ * Return: length of the string
+ */
 
 int _strlen(char *s)
 {
-	return (strlen(s));
+	int length = 0;
+
+	while (s[length])
+		length++;
+	return (length);
 }

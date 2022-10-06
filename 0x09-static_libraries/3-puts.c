@@ -1,13 +1,23 @@
-#include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
-* _puts - prints a string
-* @str: sting to print
-*/
+ * _puts - the function prints a string, followed by a newline to stdout
+ * @s: the string of characters to be printed
+ * Return: returns nothing
+ */
 
-void _puts(char *str)
+void _puts(char *s)
 {
-	puts(str);
+	int i;
+
+	for (i = 0; 1; i++)
+	{
+		if (*(s + i) == 0)
+		{
+			printf("\n");
+			break;
+		}
+		printf("%c", *(s + i));
+	}
 }

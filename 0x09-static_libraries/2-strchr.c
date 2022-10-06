@@ -1,12 +1,21 @@
 #include "main.h"
-#include <string.h>
 /**
-* _strchr - returns the pointer to first occurence
-* @s: string
-* @c: character to find
-* Return: pointer
-*/
+ * *_strchr - 
+ * @s: string 
+ * @c: 
+ * Return: 0 if true
+ */
+
 char *_strchr(char *s, char c)
 {
-	return (strchr(s, c));
+	int i;
+
+	for (i = 0; s[i] >= '\0'; i++)
+	{
+		if (s[i] == c)
+		{
+			return (s + i);
+		}
+	}
+	return ('\0');
 }
