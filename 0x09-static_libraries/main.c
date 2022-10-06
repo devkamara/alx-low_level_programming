@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * main - executes the code
+ *
+ * Return: zero if success
+ */
 
 int main(void)
 {
