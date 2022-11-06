@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * create_file - creates a file
- * filename: name of the file
+ * @filename: name of the file
  * @text_content: is a NULL terminated string
  * Return: 1 if success, -1 if it fails
  */
