@@ -1,9 +1,17 @@
-<<<<<<< HEAD
-0x14.C - Bit Manipulation
-
-How to manipulate bits and use bitwise operators
-=======
-0x14. C - Bit manipulation
-
-How to manipulate bits and use bitwise operators
->>>>>>> ee5517473af52e2ece6f8def285c4ac19e292f15
+Introduction to C Programming Language
+Includes the following projects:
+- Variables (if, else, while)
+- Functions (Nested loops)
+- Debugging
+- Pointers, Arrays and Strings
+- Recursion
+- Static Libraries
+- Variadic Functions
+- Singly linked tests
+- Bit Manipulation
+- Malloc
+- Argc and Argv
+- Structs and typedef
+- Function pointers
+- Preprocessors
+- File I/O
